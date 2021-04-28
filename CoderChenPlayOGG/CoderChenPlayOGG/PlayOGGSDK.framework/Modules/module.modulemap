@@ -1,0 +1,6 @@
+framework module PlayOGGSDK {
+  umbrella header "PlayOGGSDK.h"
+
+  export *
+  module * { export * }
+}
