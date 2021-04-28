@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = 'CoderChenPlayOGG/CoderChenPlayOGG/**/*.{h,m}'
 
   #这个是找到对应framework的路径，我是放在Framework下的，请按照我的填写来找到对应你自己的填写
-  s.ios.vendored_frameworks = 'CoderChenPlayOGG/*/*.framework'
+  s.vendored_frameworks = 'CoderChenPlayOGG/*/*.framework'
   
 end
