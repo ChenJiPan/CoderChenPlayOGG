@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CoderChenPlayOGG'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of CoderChenPlayOGG.'
   s.description      = "播放OGG格式音频"
 
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CoderChenPlayOGG/Classes/**/*'
+  s.source_files = 'CoderChenPlayOGG/CoderChenPlayOGG/**/*.{h,m}'
   
 end
